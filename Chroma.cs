@@ -18,20 +18,16 @@ namespace spotify_chroma
             {
                 var chroma = await ColoreProvider.CreateNativeAsync();
 
-                while (true)
-                {
                     while (true)
                     {
                         var x = await reader.ReadAsync();
 
                         var hex = ExtractColor(fetchImage(x.ImageUrl));
 
-                        uint color;
-                        uint.TryParse(hex, System.Globalization.NumberStyles.HexNumber, null, out color);
+                        uint.TryParse(hex, System.Globalization.NumberStyles.HexNumber, null, out uint color);
 
                         await chroma.SetAllAsync(ColoreColor.FromRgb(color));
                     }
-                }
             });
         }
 
