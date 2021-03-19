@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31105.61
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "spotify_chroma", "spotify_chroma.csproj", "{FEB40799-CA58-4A14-B488-DDAEF06993F9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FEB40799-CA58-4A14-B488-DDAEF06993F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEB40799-CA58-4A14-B488-DDAEF06993F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEB40799-CA58-4A14-B488-DDAEF06993F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEB40799-CA58-4A14-B488-DDAEF06993F9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {649E8CD3-88E6-4A7E-BE5D-67F66CEF8E6C}
+	EndGlobalSection
+EndGlobal
